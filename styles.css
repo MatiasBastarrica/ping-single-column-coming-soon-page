@@ -45,6 +45,13 @@ select {
   font: inherit;
 }
 
+/* ### UTILITY CLASSES ### */
+
+.text-accent {
+  color: var(--neutral-blue-950);
+  font-weight: var(--fw-700);
+}
+
 /* ### GENERAL STYLING ### */
 
 body {
