@@ -8,4 +8,11 @@
 
   --neutral-gray-400: hsl(0, 0%, 59%);
   --neutral-blue-950: hsl(209, 33%, 12%);
+
+  --ff-libre-franklin: "Libre Franklin", sans-serif;
+  --fw-300: 300;
+  --fw-600: 600;
+  --fw-700: 700;
+
+  --fs: 1.25rem;
 }
