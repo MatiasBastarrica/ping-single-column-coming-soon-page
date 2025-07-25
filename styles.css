@@ -44,3 +44,10 @@ textarea,
 select {
   font: inherit;
 }
+
+/* ### GENERAL STYLING ### */
+
+body {
+  font-family: var(--ff-libre-franklin);
+  font-weight: var(--fw-300);
+}
