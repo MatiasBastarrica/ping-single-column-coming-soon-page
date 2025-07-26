@@ -52,6 +52,10 @@ select {
   font-weight: var(--fw-700);
 }
 
+.hide {
+  display: none;
+}
+
 /* ### GENERAL STYLING ### */
 
 body {
@@ -108,6 +112,19 @@ input[type="email"] {
 
 input[type="email"]::placeholder {
   color: hsl(224, 33%, 71%);
+}
+
+input[type="email"]:invalid {
+  border-color: #bf3535;
+}
+
+.invalid-message,
+.empty-input-message {
+  color: red;
+  font-style: italic;
+  padding-inline-start: 1.5rem;
+  font-size: 0.8rem;
+  margin-top: 0.4rem;
 }
 
 input[type="submit"] {

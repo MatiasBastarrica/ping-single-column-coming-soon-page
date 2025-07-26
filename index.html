@@ -26,15 +26,21 @@
       <h1>We are launching <span class="text-accent">soon!</span></h1>
       <p class="subtitle">Subscribe and get notified</p>
       <form action="">
-        <p>
+        <div>
           <input
             type="email"
             name="email"
             id="email"
             placeholder="Your email address..."
           />
-        </p>
-        <p><input type="submit" value="Notify Me" /></p>
+          <div class="invalid-message hide">
+            Please provide a valid email address
+          </div>
+          <div class="empty-input-message hide">
+            Whoops! It looks like you forgot to add your email
+          </div>
+        </div>
+        <div><input type="submit" value="Notify Me" /></div>
       </form>
       <img
         class="dashboard-img"
