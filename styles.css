@@ -146,7 +146,7 @@ input[type="submit"]:hover {
 }
 
 .social-icon-container svg {
-  width: 20px;
+  width: 16px;
   height: auto;
 }
 
@@ -158,4 +158,38 @@ input[type="submit"]:hover {
   margin-top: 1.5rem;
   color: var(--neutral-gray-400);
   font-size: 0.8rem;
+}
+
+/* ### MEDIA QUERIES ### */
+
+@media (min-width: 46.875em) {
+  main {
+    padding-top: 4rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .dashboard-img {
+    margin-top: 4rem;
+    max-width: 576px;
+  }
+
+  form {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  input[type="email"] {
+    width: 400px;
+  }
+
+  input[type="submit"] {
+    width: 175px;
+  }
+
+  /* .footer {
+    margin-top: 4rem;
+  } */
 }
